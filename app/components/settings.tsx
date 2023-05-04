@@ -344,7 +344,7 @@ export function Settings() {
           {/* 版本更新 */}
           <ListItem
             title=玩转人工智能
-            {/* {Locale.Settings.Update.Version(currentVersion ?? "unknown")}*/}
+            {/* {Locale.Settings.Update.Version(currentVersion ?? "unknown")} */}
             subTitle=AI研究所训练营
               {/* {
               checkingUpdate
@@ -352,7 +352,7 @@ export function Settings() {
                 : hasNewVersion
                 ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
                 : Locale.Settings.Update.IsLatest
-            }*/}
+            } */}
           >
             {checkingUpdate ? (
               <div />
