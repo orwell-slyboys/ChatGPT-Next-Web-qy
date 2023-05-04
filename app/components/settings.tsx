@@ -341,7 +341,7 @@ export function Settings() {
               </div>
             </Popover>
           </ListItem>
-          {/* 版本更新 */}
+          {/* 购课中心 */}
           <ListItem title="AI研究所训练营" >
             {checkingUpdate ? (
               <div />
@@ -549,7 +549,7 @@ export function Settings() {
           </ListItem>
         </List>
         {/* 模型 */}
-        <List>
+   {/*  <List>
           <ModelConfigList
             modelConfig={config.modelConfig}
             updateConfig={(upater) => {
@@ -557,7 +557,7 @@ export function Settings() {
               upater(modelConfig);
               config.update((config) => (config.modelConfig = modelConfig));
             }}
-          />
+          /> */}
         </List>
 
         {shouldShowPromptModal && (
