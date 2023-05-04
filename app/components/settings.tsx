@@ -343,10 +343,9 @@ export function Settings() {
           </ListItem>
           {/* 版本更新 */}
           <ListItem
-            title='玩转人工智能'
-            {/* {Locale.Settings.Update.Version(currentVersion ?? "unknown")} */}
-            subTitle='AI研究所训练营'
-              {/* {
+            title={'AI研究所训练营'}
+            {/* title={Locale.Settings.Update.Version(currentVersion ?? "unknown")} */}
+        {/* subTitle={
               checkingUpdate
                 ? Locale.Settings.Update.IsChecking
                 : hasNewVersion
