@@ -557,8 +557,8 @@ export function Settings() {
               upater(modelConfig);
               config.update((config) => (config.modelConfig = modelConfig));
             }}
-          /> */}
-        </List>
+          /> 
+        </List> */}
 
         {shouldShowPromptModal && (
           <UserPromptModal onClose={() => setShowPromptModal(false)} />
