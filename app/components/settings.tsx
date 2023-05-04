@@ -356,7 +356,8 @@ export function Settings() {
               <div />
             ) : hasNewVersion ? (
               <Link href={UPDATE_URL} target="_blank" className="link">
-                {Locale.Settings.Update.GoToUpdate}
+                前往买课
+                {/* {Locale.Settings.Update.GoToUpdate} */}
               </Link>
             ) : (
               <IconButton
