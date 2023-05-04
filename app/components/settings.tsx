@@ -343,14 +343,16 @@ export function Settings() {
           </ListItem>
           {/* 版本更新 */}
           <ListItem
-            title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
-            subTitle={
+            title=玩转人工智能
+            {/* {Locale.Settings.Update.Version(currentVersion ?? "unknown")}*/}
+            subTitle=AI研究所训练营
+              {/* {
               checkingUpdate
                 ? Locale.Settings.Update.IsChecking
                 : hasNewVersion
                 ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
                 : Locale.Settings.Update.IsLatest
-            }
+            }*/}
           >
             {checkingUpdate ? (
               <div />
