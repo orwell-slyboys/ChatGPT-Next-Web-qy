@@ -457,12 +457,14 @@ export function Settings() {
         </List>
         
         <List>
+          <div>你好111</div>
           {/* 密码 */}
           {enabledAccessControl ? (
             <ListItem
               title={Locale.Settings.AccessCode.Title}
               subTitle={Locale.Settings.AccessCode.SubTitle}
             >
+            <div>你好222</div>
               <PasswordInput
                 value={accessStore.accessCode}
                 type="text"
@@ -471,10 +473,12 @@ export function Settings() {
                   accessStore.updateCode(e.currentTarget.value);
                 }}
               />
+             <div>你好333</div>
             </ListItem>
           ) : (
             <></>
           )}
+          <div>你好444</div>
           {/* API Key */}
           {!accessStore.hideUserApiKey ? (
             <ListItem
