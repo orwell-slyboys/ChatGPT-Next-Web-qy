@@ -342,13 +342,19 @@ export function Settings() {
             </Popover>
           </ListItem>
           {/* 购课中心 */}
-          <ListItem title="AI研究所训练营" >
+                BootCamp: "AI集訓營",
+    FontSize: {
+      Title: "AI研究所集訓教程",
+      SubTitle: "立即前往",
+    },
+          <ListItem title={Locale.Settings.BootCamp.Title} >
+             {/*  Title: "AI研究所集訓教程" */}
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
               <Link href={UPDATE_URL} target="_blank" className="link">
-                前往买课
-                {/* {Locale.Settings.Update.GoToUpdate} */}
+                {Locale.Settings.BootCamp.SubUpdate}
+                {/* {Locale.Settings.Update.SubUpdate}前往买课 */}
               </Link>
             ) : (
               <IconButton
