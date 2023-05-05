@@ -228,11 +228,6 @@ bash <(curl -s https://raw.githubusercontent.com/astmating/ChatGPT-Next-Web-ya/m
 ![More](./docs/images/more.png)
 
 
-## Special Thanks
-
-### Sponsor
-
-
 ### Contributor
 
 [Contributors](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
