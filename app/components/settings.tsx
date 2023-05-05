@@ -341,13 +341,9 @@ export function Settings() {
               </div>
             </Popover>
           </ListItem>
-          {/* 购课中心 */}
-                BootCamp: "AI集訓營",
-    FontSize: {
-      Title: "AI研究所集訓教程",
-      SubTitle: "立即前往",
-    },
-          <ListItem title={Locale.Settings.BootCamp.Title} >
+          <ListItem 
+              title={Locale.Settings.BootCamp.Title} 
+             >
              {/*  Title: "AI研究所集訓教程" */}
             {checkingUpdate ? (
               <div />
