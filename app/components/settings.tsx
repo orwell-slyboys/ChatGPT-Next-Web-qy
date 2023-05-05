@@ -341,7 +341,9 @@ export function Settings() {
               </div>
             </Popover>
           </ListItem>
-          <ListItem title={Locale.Settings.BootCamp.Title}>
+          <ListItem 
+                    title={Locale.Settings.BootCamp.Title}
+                    >
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
