@@ -87,6 +87,11 @@ const tr: LocaleType = {
       Title: "Yazı Boyutu",
       SubTitle: "Sohbet içeriğinin yazı boyutunu ayarlayın",
     },
+    BootCamp: "AI Boot Camp",
+    BootCamptext: {
+      text: "AI Research Institute Training Course",
+      putlink: "Go now",
+    },
     Update: {
       Version: (x: string) => `Sürüm: ${x}`,
       IsLatest: "En son sürüm",
