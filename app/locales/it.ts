@@ -87,6 +87,11 @@ const it: LocaleType = {
       Title: "Dimensione carattere",
       SubTitle: "Regolare la dimensione dei caratteri del contenuto della chat",
     },
+    BootCamp: "AI Boot Camp",
+    BootCamptext: {
+      text: "AI Research Institute Training Course",
+      putlink: "Go now",
+    },
     Update: {
       Version: (x: string) => `Versione: ${x}`,
       IsLatest: "Ultima versione",
