@@ -517,9 +517,10 @@ export function Settings() {
                 onClick={() => checkUsage(true)}
               />
             )}
-          </ListItem>
+          </ListItem>   
+           */}
         </List>
-         */}
+        
         
          <List>
           {/* 禁用提示词自动补全 */}
