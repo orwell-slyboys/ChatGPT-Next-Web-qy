@@ -88,7 +88,7 @@ const en: LocaleType = {
       SubTitle: "Adjust font size of chat content",
     },
     BootCamp: "AI Boot Camp",
-    BootCamptext: : {
+    BootCamptext: {
       text: "AI Research Institute Training Course",
       putlink: "Go now",
     },
