@@ -88,9 +88,9 @@ const jp: LocaleType = {
       SubTitle: "チャット内容のフォントサイズ",
     },
     BootCamp: "AI 集中トレーニングキャンプ",
-    FontSize: {
-      Title: "AI研究所トレーニングコース",
-      SubTitle: "立ち去る",
+    BootCamptext:{
+      text: "AI研究所トレーニングコース",
+      putlink: "立ち去る",
     },
     Update: {
       Version: (x: string) => `現在のバージョン：${x}`,
