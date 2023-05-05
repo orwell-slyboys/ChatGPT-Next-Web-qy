@@ -87,7 +87,11 @@ const es: LocaleType = {
       Title: "Tamaño de fuente",
       SubTitle: "Ajustar el tamaño de fuente del contenido del chat",
     },
-    
+    BootCamp: "AI Boot Camp",
+    BootCamptext: {
+      text: "AI Research Institute Training Course",
+      putlink: "Go now",
+    },
     Update: {
       Version: (x: string) => `Versión: ${x}`,
       IsLatest: "Última versión",
