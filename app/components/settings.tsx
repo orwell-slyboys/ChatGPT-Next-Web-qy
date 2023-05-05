@@ -460,10 +460,10 @@ export function Settings() {
           <div>你好111</div>
           {/* 密码 */}
           {enabledAccessControl ? (
-            <ListItem
+            <ListItem 
               title={Locale.Settings.AccessCode.Title}
               subTitle={Locale.Settings.AccessCode.SubTitle}
-            >
+             >
             <div>你好222</div>
               <PasswordInput
                 value={accessStore.accessCode}
