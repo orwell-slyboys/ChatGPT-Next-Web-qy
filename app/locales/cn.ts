@@ -85,7 +85,11 @@ const cn = {
       Title: "字体大小",
       SubTitle: "聊天内容的字体大小",
     },
-
+    BootCamp: "AI集训营",
+    FontSize: {
+      Title: "AI研究所集训教程",
+      SubTitle: "立即前往",
+    },
     Update: {
       Version: (x: string) => `当前版本：${x}`,
       IsLatest: "已是最新版本",
