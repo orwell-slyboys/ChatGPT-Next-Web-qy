@@ -86,9 +86,9 @@ const tw: LocaleType = {
       SubTitle: "聊天內容的字型大小",
     },
     BootCamp: "AI集訓營",
-    FontSize: {
-      Title: "AI研究所集訓教程",
-      SubTitle: "立即前往",
+    BootCamptext: {
+      text: "AI研究所集訓教程",
+      putlink: "立即前往",
     },
     Update: {
       Version: (x: string) => `當前版本：${x}`,
