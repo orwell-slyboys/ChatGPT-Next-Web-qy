@@ -341,14 +341,15 @@ export function Settings() {
               </div>
             </Popover>
           </ListItem>
+           {/* 集训营 */}
           <ListItem 
-                    title={Locale.Settings.BootCamp.Title}
+                    title={Locale.Settings.BootCamptext.text}
                     >
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
               <Link href={UPDATE_URL} target="_blank" className="link">
-                {Locale.Settings.BootCamp.SubTitle}
+                {Locale.Settings.BootCamptext.putlink}
               </Link>
             ) : (
               <IconButton
