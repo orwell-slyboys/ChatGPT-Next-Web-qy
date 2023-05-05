@@ -495,6 +495,7 @@ export function Settings() {
           ) : null}
           */}
           {/* 余额查询 */}
+         {/*
           <ListItem title={Locale.Settings.Usage.Title}
             subTitle={
               showUsage
@@ -518,8 +519,9 @@ export function Settings() {
             )}
           </ListItem>
         </List>
-
-        <List>
+         */}
+        
+         <List>
           {/* 禁用提示词自动补全 */}
           <ListItem 
             title={Locale.Settings.Prompt.Disable.Title}
