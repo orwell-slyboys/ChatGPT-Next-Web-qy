@@ -197,12 +197,12 @@ yarn dev
 ### Docker (Recommended)
 
 ```shell
-docker pull astmating/chatgpt-next-web
+docker pull astmating/chatgpt-next-web-ya
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxxx" \
    -e CODE="your-password" \
-   astmating/chatgpt-next-web
+   astmating/chatgpt-next-web-ya
 ```
 
 You can start service behind a proxy:
@@ -212,7 +212,7 @@ docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxxx" \
    -e CODE="your-password" \
    -e PROXY_URL="http://localhost:7890" \
-   astmating/chatgpt-next-web
+   astmating/chatgpt-next-web-ya
 ```
 
 ### Shell
