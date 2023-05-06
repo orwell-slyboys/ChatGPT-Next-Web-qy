@@ -117,7 +117,7 @@ export function SideBar(props: { className?: string }) {
         />
         {/* 买课中心 */}
         {/* <Link to={Buy_URL}> */}
-        <a href={Buy_URL}  target="_blank">
+        <a style={{ textDecoration: 'none' }} href={Buy_URL}  target="_blank">
         <IconButton
           icon={<PluginIcon />}
           text="购课中心" 
@@ -153,13 +153,13 @@ export function SideBar(props: { className?: string }) {
           </div>
           {/* 设置 */}
           <div className={styles["sidebar-action"]}>
-            <Link to={Path.Settings}>
+            <Link style={{ textDecoration: 'none' }} to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} text="设置" shadow />
             </Link>
           </div>
           {/* 视频号 */}
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL}  target="_blank">
+            <a style={{ textDecoration: 'none' }} href={REPO_URL}  target="_blank">
               <IconButton icon={<GithubIcon />} text="视频号" shadow />
             </a>
           </div>
