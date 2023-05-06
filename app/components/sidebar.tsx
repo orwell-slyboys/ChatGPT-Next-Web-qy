@@ -97,7 +97,7 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>AI研究院-企业专用</div>
+        <div className={styles["sidebar-title"]}>AI研究所-企业专用</div>
         <div className={styles["sidebar-sub-title"]}>
           <a style={{ textDecoration: 'none' }} href='https://s.pdb2.com/pages/20230506/dmq3GL4Hh9PORGF.html'>欢迎试用ChatGPT,点我咨询更多技巧.</a>
         </div>
@@ -115,12 +115,12 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
-        {/* 买课中心 */}
+        {/* 买课中心课程教学 */}
         {/* <Link to={Buy_URL}> */}
         <a style={{ textDecoration: 'none' }} href={Buy_URL}  target="_blank">
         <IconButton
           icon={<PluginIcon />}
-          text="购课中心" 
+          text="课程教学" 
           className={styles["sidebar-bar-button"]}
           shadow 
          />
