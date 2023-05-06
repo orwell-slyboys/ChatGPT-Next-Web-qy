@@ -21,6 +21,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  Buy_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -115,13 +116,14 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         {/* 买课中心 */}
+        <Link to={Buy_URL}>
         <IconButton
           icon={<PluginIcon />}
           text="购课中心"
           className={styles["sidebar-bar-button"]}
-          onClick={() => heaf{Buy_URL}}
           shadow
         />
+        </Link>
       </div>
 
       <div
