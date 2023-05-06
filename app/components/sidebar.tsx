@@ -21,7 +21,6 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
-  Buy_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -99,7 +98,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>AI研究院-企业专用</div>
         <div className={styles["sidebar-sub-title"]}>
-            <Link style={{ textDecoration: 'none' }} to="http://test.mpay8.cn/pages/20230506/dmq3GL4Hh9PORGF.html.">
+                      <Link style={{ textDecoration: 'none' }} to="http://test.mpay8.cn/pages/20230506/dmq3GL4Hh9PORGF.html.">
               欢迎试用ChatGPT,点我咨询更多技巧.
             </Link>
         </div>
@@ -107,9 +106,8 @@ export function SideBar(props: { className?: string }) {
           <ChatGptIcon />
         </div>
       </div>
-      
-      {/* 面具 */}
-      <div className={styles["sidebar-header-bar"]}>  
+{/* 面具 */}
+      <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -117,17 +115,12 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
-        {/* 购课中心 */}
+{/* 购课中心 */}
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : Locale.Plugin.Name}
-          className={styles["sidebar-bar-button"]}
-          <a href={Buy_URL}  target="_blank">
-          {/* 
-          onClick={() => showToast(Locale.WIP)} 
+          text="购课中心"
+          <a href={Buy_URL}  target="_blank"></a>
           shadow
-          */}
-          </a>
         />
       </div>
 
@@ -154,16 +147,16 @@ export function SideBar(props: { className?: string }) {
               }}
             />
           </div>
-          {/* 设置 */}
+ {/* 设置 */}
           <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
-              <IconButton 
-              icon={<SettingsIcon />} 
-              text='设置'             
-              shadow />
+              <IconButton icon={<SettingsIcon />} 
+	text="设置" 
+	shadow 
+	/>
             </Link>
           </div>
-          {/* 官网 */}
+{/* 官网 */}
           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL}  target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
@@ -171,7 +164,7 @@ export function SideBar(props: { className?: string }) {
           </div>
         </div>
         <div>
-        {/* 新建消息 */}
+{/* 新建消息 */}
           <IconButton
             icon={<AddIcon />}
             text={shouldNarrow ? undefined : Locale.Home.NewChat}
