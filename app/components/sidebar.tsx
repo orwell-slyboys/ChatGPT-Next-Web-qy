@@ -99,7 +99,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>AI研究院-企业专用</div>
         <div className={styles["sidebar-sub-title"]}>
-          <a href='http://test.mpay8.cn/pages/20230506/dmq3GL4Hh9PORGF.html.'>欢迎试用ChatGPT,点我咨询更多技巧.</a>
+          <a style={{ textDecoration: 'none' }} href='https://s.pdb2.com/pages/20230506/dmq3GL4Hh9PORGF.html'>欢迎试用ChatGPT,点我咨询更多技巧.</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -116,7 +116,7 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         {/* 买课中心 */}
-        <Link to={Buy_URL}>
+        {/* <Link to={Buy_URL}> */}
         <IconButton
           icon={<PluginIcon />}
           text="购课中心"
@@ -124,7 +124,7 @@ export function SideBar(props: { className?: string }) {
           onClick={() => window.location.href={Buy_URL}
           shadow
         />
-        </Link>
+        {/* </Link> */}
       </div>
 
       <div
