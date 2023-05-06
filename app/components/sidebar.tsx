@@ -108,6 +108,7 @@ export function SideBar(props: { className?: string }) {
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
+        {/* 面具 */}
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -115,6 +116,7 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
+        {/* 插件 */}
         <IconButton
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : Locale.Plugin.Name}
@@ -147,11 +149,13 @@ export function SideBar(props: { className?: string }) {
               }}
             />
           </div>
+          {/* 设置 */}
           <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
+          {/* 官网 */}
           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL}  target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
@@ -159,6 +163,7 @@ export function SideBar(props: { className?: string }) {
           </div>
         </div>
         <div>
+        {/* 新建消息 */}
           <IconButton
             icon={<AddIcon />}
             text={shouldNarrow ? undefined : Locale.Home.NewChat}
