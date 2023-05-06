@@ -157,8 +157,10 @@ export function SideBar(props: { className?: string }) {
           {/* 设置 */}
           <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
-              <IconButton icon={<SettingsIcon />} shadow />
-              <div>设置</div>
+              <IconButton 
+              icon={<SettingsIcon />} 
+              text='设置'             
+              shadow />
             </Link>
           </div>
           {/* 官网 */}
