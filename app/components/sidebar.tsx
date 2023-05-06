@@ -106,6 +106,7 @@ export function SideBar(props: { className?: string }) {
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
+        {/* 面具 */}
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -113,9 +114,10 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
+        {/* 买课中心 */}
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : Locale.Plugin.Name}
+          text="购课中心"
           className={styles["sidebar-bar-button"]}
           onClick={() => showToast(Locale.WIP)}
           shadow
@@ -132,7 +134,7 @@ export function SideBar(props: { className?: string }) {
       >
         <ChatList narrow={shouldNarrow} />
       </div>
-
+      
       <div className={styles["sidebar-tail"]}>
         <div className={styles["sidebar-actions"]}>
           <div className={styles["sidebar-action"] + " " + styles.mobile}>
@@ -145,18 +147,21 @@ export function SideBar(props: { className?: string }) {
               }}
             />
           </div>
+          {/* 设置 */}
           <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
-              <IconButton icon={<SettingsIcon />} shadow />
+              <IconButton icon={<SettingsIcon />} text="设置" shadow />
             </Link>
           </div>
+          {/* 视频号 */}
           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL}  target="_blank">
-              <IconButton icon={<GithubIcon />} shadow />
+              <IconButton icon={<GithubIcon />} text="视频号" shadow />
             </a>
           </div>
         </div>
         <div>
+        {/* 新建信息 */}
           <IconButton
             icon={<AddIcon />}
             text={shouldNarrow ? undefined : Locale.Home.NewChat}
