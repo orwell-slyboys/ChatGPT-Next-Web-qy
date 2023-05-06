@@ -119,7 +119,7 @@ export function SideBar(props: { className?: string }) {
           icon={<PluginIcon />}
           text="购课中心"
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          onClick={() => heaf{Buy_URL}}
           shadow
         />
       </div>
