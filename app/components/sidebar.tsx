@@ -99,7 +99,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]}>AI研究院-企业专用</div>
         <div className={styles["sidebar-sub-title"]}>
           <Link to="http://test.mpay8.cn/pages/20230506/dmq3GL4Hh9PORGF.html">
-              欢迎试用ChatGPT.
+              欢迎试用ChatGPT,点我咨询更多技巧.
           </Link>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
