@@ -117,13 +117,14 @@ export function SideBar(props: { className?: string }) {
         />
         {/* 买课中心 */}
         {/* <Link to={Buy_URL}> */}
+        <a href={Buy_URL}  target="_blank">
         <IconButton
           icon={<PluginIcon />}
-          text="购课中心"
+          text="购课中心" 
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.location.href={Buy_URL}
-          shadow
-        />
+          shadow 
+         />
+        </a>
         {/* </Link> */}
       </div>
 
