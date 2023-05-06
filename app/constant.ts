@@ -1,6 +1,6 @@
 export const OWNER = "jyrz";
 export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `http://test.mpay8.cn/pages/20230506/cnqggLokL9ooqhF.html`;
+export const REPO_URL = `https://s.pdb2.com/pages/20230506/cnqggLokL9ooqhF.html`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const Buy_URL = `https://appulfjljvg3856.h5.xiaoeknow.com/p/decorate/homepage?share_user_id=anonymous_A9mkXFpUh8RhxLq8T&wework_share_customer_id=anonymous_A9mkXFpUh8RhxLq8T&entry=2&entry_type=200`;
 export const UPDATE_URL = `https://appulfjljvg3856.h5.xiaoeknow.com/p/decorate/homepage?share_user_id=anonymous_A9mkXFpUh8RhxLq8T&wework_share_customer_id=anonymous_A9mkXFpUh8RhxLq8T&entry=2&entry_type=2002`;
