@@ -121,6 +121,7 @@ export function SideBar(props: { className?: string }) {
           icon={<PluginIcon />}
           text="购课中心"
           className={styles["sidebar-bar-button"]}
+          onClick={() => window.location.href={Buy_URL}
           shadow
         />
         </Link>
