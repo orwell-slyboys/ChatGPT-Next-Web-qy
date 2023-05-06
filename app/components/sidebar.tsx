@@ -116,12 +116,13 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
-        {/* 插件 */}
+        {/* 购课中心 */}
         <IconButton
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : Locale.Plugin.Name}
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          <a href={Buy_URL}  target="_blank">
+          {/* onClick={() => showToast(Locale.WIP)} */}
           shadow
         />
       </div>
