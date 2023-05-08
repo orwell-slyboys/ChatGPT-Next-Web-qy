@@ -127,7 +127,8 @@ export function SideBar(props: { className?: string }) {
           icon={<PluginIcon />}
           text="课程教学" 
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.location.href={Buy_URL}}
+          onClick={() => window.location.href='https://appulfjljvg3856.h5.xiaoeknow.com/p/decorate/homepage?share_user_id=anonymous_A9mkXFpUh8RhxLq8T&wework_share_customer_id=anonymous_A9mkXFpUh8RhxLq8T&entry=2&entry_type=200'
+}
           shadow 
          />
         {/* </a> */}
