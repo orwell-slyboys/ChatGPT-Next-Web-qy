@@ -21,8 +21,8 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
-{/*  Buy_URL,  */}
 } from "../constant";
+{/*  Buy_URL,  */}
 
 import { Link, useNavigate } from "react-router-dom";
 import { useMobileScreen } from "../utils";
