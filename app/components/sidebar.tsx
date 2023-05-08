@@ -98,10 +98,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>AI研究所-企业级</div>
-        <div className={styles["sidebar-sub-title"]} style={ margin: '10px 0' }>
+        <div className={styles["sidebar-sub-title"]} style={{ margin: '10px 0' }}>
           <a style={{ textDecoration: 'none' }} href='https://s.pdb2.com/pages/20230506/dmq3GL4Hh9PORGF.html'>欢迎使用ChatGPT,点我加入AI交流群.</a>
         </div>
-        <div className={styles["sidebar-sub-title"]} style={ margin: '10px 0' }>
+        <div className={styles["sidebar-sub-title"]} style={{ margin: '10px 0' }}>
           <a style={{ textDecoration: 'none' }} href='#'>点我查看使用技巧.</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
