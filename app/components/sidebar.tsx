@@ -111,7 +111,7 @@ export function SideBar(props: { className?: string }) {
 
       <div className={styles["sidebar-header-bar"]}>
         {/* 面具 */}
-       <a style={{ textDecoration: 'none' }}   target="_blank">
+        {/* <a style={{ textDecoration: 'none' }}   target="_blank"> */}
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -119,17 +119,18 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
-       </a>
+        {/* </a> */}
         {/* 买课中心课程教学 */}
         {/* <Link to={Buy_URL}> */}
-        <a style={{ textDecoration: 'none' }} href={Buy_URL}  target="_blank">
+        {/* <a style={{ textDecoration: 'none' }} href={Buy_URL}  target="_blank">*/}
         <IconButton
           icon={<PluginIcon />}
           text="课程教学" 
           className={styles["sidebar-bar-button"]}
+          onClick={() => window.location.href={Buy_URL}}
           shadow 
          />
-        </a>
+        {/* </a> */}
         {/* </Link> */}
       </div>
 
