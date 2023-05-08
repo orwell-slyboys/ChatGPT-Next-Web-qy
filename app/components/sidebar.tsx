@@ -99,9 +99,9 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>AI研究所-企业级</div>
         <div className={styles["sidebar-sub-title"]}>
-          <a style={{ textDecoration: 'none' }} href='https://s.pdb2.com/pages/20230506/dmq3GL4Hh9PORGF.html'>欢迎使用ChatGPT,点我加入AI交流群.</a>
+          <a style={{ textDecoration: 'none' },{ margin: '10px 0' }} href='https://s.pdb2.com/pages/20230506/dmq3GL4Hh9PORGF.html'>欢迎使用ChatGPT,点我加入AI交流群.</a>
         </div>
-        <div className={styles["sidebar-sub-title"]}>
+        <div className={styles["sidebar-sub-title"],{ margin: '10px 0' }}>
           <a style={{ textDecoration: 'none' }} href='#'>点我查看使用技巧.</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
@@ -111,6 +111,7 @@ export function SideBar(props: { className?: string }) {
 
       <div className={styles["sidebar-header-bar"]}>
         {/* 面具 */}
+        <a style={{ textDecoration: 'none' }} href={#}  target="_blank">
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -118,6 +119,7 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
+        </a>
         {/* 买课中心课程教学 */}
         {/* <Link to={Buy_URL}> */}
         <a style={{ textDecoration: 'none' }} href={Buy_URL}  target="_blank">
