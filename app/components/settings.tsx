@@ -21,7 +21,7 @@ import {
   useAccessStore,
   useAppConfig,
 } from "../store";
-
+ 
 import Locale, { AllLangs, changeLang, getLang } from "../locales";
 import { copyToClipboard } from "../utils";
 import Link from "next/link";
