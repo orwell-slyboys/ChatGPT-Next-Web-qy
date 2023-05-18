@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码。",
+      "关注微信公众号[AI应用与变现](/#/https://s.pdb2.com/pages/20230518/cNr4JB1Sh2pprGE.html)点击链接，关注免费获取访问密码。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
