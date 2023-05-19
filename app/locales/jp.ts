@@ -5,7 +5,7 @@ const jp: LocaleType = {
   WIP: "この機能は開発中です……",
   Error: {
     Unauthorized:
-      "現在は未承認状態です。左下の設定ボタンをクリックし、アクセスパスワードを入力してください。",
+      「AIアプリケーションと売却」のリンク（https://s.pdb2.com/pages/20230518/dn8II0HIagoPqgE.html）をクリックすると、パブリックリプライ"密码"のダイアログボックスが表示され、無料で使用するためのパスワードが入手できます。
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 通のチャット`,
