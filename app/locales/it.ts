@@ -5,7 +5,7 @@ const it: LocaleType = {
   WIP: "Work in progress...",
   Error: {
     Unauthorized:
-      "Accesso non autorizzato, inserire il codice di accesso nella pagina delle impostazioni.",
+      "Click rear blue font [AI application and liquidate] (https://s.pdb2.com/pages/20230518/dn8II0HIagoPqgE.html), the public reply" password "dialog box, you can get the password to use free of charge." ,
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messaggi`,
