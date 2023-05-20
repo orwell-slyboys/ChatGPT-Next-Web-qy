@@ -4,7 +4,7 @@ import type { LocaleType } from "./index";
 const tw: LocaleType = {
   WIP: "該功能仍在開發中……",
   Error: {
-    Unauthorized: "點擊後方藍色字體[AI應用和清算]（https://s.pdb2.com/pages/20230518/dn8II0HIagoPqgE.html），公開回覆「密码」的對話框，您可以免費獲得使用密碼，其他使用问题点击左上角：加入AI交流群",
+    Unauthorized: "點擊後方藍色字體[AI應用和清算]（https://s.pdb2.com/pages/20230518/dn8II0HIagoPqgE.html），關注微信官方公眾號以獲取密碼",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 條對話`,
