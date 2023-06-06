@@ -5,7 +5,7 @@ const es: LocaleType = {
   WIP: "En construcción...",
   Error: {
     Unauthorized:
-      "Click rear blue font [AI application and liquidate] (https://s.pdb2.com/pages/20230518/dn8II0HIagoPqgE.html), Follow our official public account to obtain the password.",
+      "Click the blue font [AI Research Institute](https://www.chat-ai.jyrz22.cn/),and experience the latest product.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} mensajes`,
