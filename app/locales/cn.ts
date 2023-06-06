@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "点击蓝色字体[AI应用与变现](https://s.pdb2.com/pages/20230518/dn8II0HIagoPqgE.html)，关注公众号获取密码。",
+      "点击蓝色字体[AI研究所](https://www.chat-ai.jyrz22.cn/)，体验最新产品。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
